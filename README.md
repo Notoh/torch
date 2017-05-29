@@ -8,11 +8,11 @@ Intel®Software Optimization for Torch
 ============
 This fork is dedicated to improving Torch performance when running on CPU, in particular Intel® Xeon processors (HSW, BDW, Xeon Phi)
 
-###Requirements
+### Requirements
 Be sure you have installed the lastest MKL version: parallel_studio_xe_2017. 
 
 
-###Building
+### Building
 Before install, you should set the MKL path for cmake:
 ```sh
 export CMAKE_INCLUDE_PATH=$CMAKE_INCLUDE_PATH:/opt/intel/mkl/include
@@ -48,7 +48,7 @@ You can test that all libraries are installed properly by running:
 Tested on Ubuntu 14.04, CentOS 7.
 
 
-###Performance
+### Performance
 To check the performance on the convnet benchmark, refer to this [page](https://github.com/xhzhao/Optimized-Torch-benchmark)
 
 
